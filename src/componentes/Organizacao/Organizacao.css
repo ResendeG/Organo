@@ -1,0 +1,43 @@
+.organizacao {
+    display: flex;
+    justify-content: center;
+}
+
+.organizacao h1 {
+    font: 400 2.25rem 'Prata', serif;
+    color: #6278F7;
+}
+
+.organizacao button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20%;
+}
+
+@media screen and (max-width:1050px) {
+    .organizacao button {
+        right: 0;
+    } 
+}
+
+@media screen and (max-width:600px) {
+    .organizacao {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .organizacao h1 {
+        margin: 1rem 0rem;
+    }
+
+    .organizacao button {
+        position: relative;
+    }
+
+    .btn-organizacao {
+        width: 80px;
+    }
+}

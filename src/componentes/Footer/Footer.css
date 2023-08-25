@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #677eff;
+    color: #FFFFFF;
+    padding: 3rem 1rem;
+    background-image: url('/public/imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer div {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer p {
+    font: 700 1.15rem;
+}
+
+@media screen and (max-width:680px) {
+    .footer {
+        flex-direction: column;
+        gap: 1.25rem;
+        padding: 2rem 1rem;
+    }
+
+    .icon-organo {
+        width: 120px;
+    }
+}
